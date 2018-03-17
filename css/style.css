@@ -197,11 +197,11 @@ body{
 }
 .pic > img{
   
-  -webkit-transform:scale(1);
+  transform:scale(1);
   transition: 0.5s;
 }
 .pic > img:hover{
-  -webkit-transform:scale(1.1)
+  transform:scale(1.1)
   
 }
 .pic:nth-child(4){
@@ -212,6 +212,7 @@ body{
   width:calc((100% / 3) - 30px / 2) ;
   margin-top: 30px;
   margin-bottom: 30px;
+  height: 185px;
  }
 .cont > .pic:nth-child(7){
   margin-left: 15px;
