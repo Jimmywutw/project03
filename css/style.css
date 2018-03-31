@@ -487,10 +487,12 @@ h2{
     margin-right: 25px;
   }
      
-  
-}
+ 
+
  .save >h2{
     font-size: 22px;
     line-height: 15px;
     padding-bottom: 10px;
+}
+
 }
