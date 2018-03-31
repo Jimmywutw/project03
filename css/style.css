@@ -152,12 +152,12 @@ body{
   text-decoration: none;
   margin-top: 12px;
   transition-duration:0.3s;
-  text-shadow: 0px 2px 8px;
-  box-shadow: 1px 2px 0px black;
+  
 }
 .content a:hover{
   background-color: #FF895D;
   font-weight: bold;
+  box-shadow: 1px 2px 0px black;
 }
 .container3{
   display: block;
