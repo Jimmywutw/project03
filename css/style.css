@@ -403,7 +403,7 @@ h2{
     margin-top: 10px;
     margin-bottom: 10px;
      }
-  .container2{height:500px ; }
+  .container2{height:570px ; }
   .container2 > div{margin-top: 40px;  }
   .content{ width: 90%;}
   .cont{ width: 100%; float:left;        display: inline-block; }
@@ -432,10 +432,8 @@ h2{
  }
   
  
- // .save{
-    width: 100%;
-    font-size:20px;
-  }
+ 
+  
   .foot-contain{
     width: 100%;
     }
@@ -490,4 +488,9 @@ h2{
   }
      
   
+}
+ .save >h2{
+    font-size: 22px;
+    line-height: 15px;
+    padding-bottom: 10px;
 }
