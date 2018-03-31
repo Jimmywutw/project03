@@ -24,6 +24,40 @@ body{
   font-size:54px;
   font-weight: bold;
   line-height: 55px;
+  backface-visibility: hidden;
+  animation: moveInup;
+  animation-duration: 1s;
+  animation-timing-function:ease-in;
+}
+.h1-animation{
+  animation: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function:ease-in;
+  backface-visibility: hidden;
+}
+@keyframes moveInup{
+0%{
+  opacity: 0;
+    transform:translatey(-100px);
+}
+80%{
+    transform:translatey(15px);
+}
+100%{
+    opacity: 1;
+}
+}
+@keyframes moveInRight{
+0%{
+  opacity: 0;
+    transform:translateX(-100px);
+}
+80%{
+    transform:translateX(15px);
+}
+100%{
+    opacity: 1;
+}
 }
 .container{
  position: fixed;
@@ -118,6 +152,8 @@ body{
   text-decoration: none;
   margin-top: 12px;
   transition-duration:0.3s;
+  text-shadow: 0px 2px 8px;
+  box-shadow: 1px 2px 0px black;
 }
 .content a:hover{
   background-color: #FF895D;
