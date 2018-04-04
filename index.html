@@ -7,11 +7,12 @@
   
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-<link rel='stylesheet prefetch' href='https:////netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'>
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <link rel='stylesheet prefetch' href='https://use.fontawesome.com/releases/v5.0.8/js/all.js'>
 
-      <link rel="stylesheet" href="css/style.css">
-
+<link rel="stylesheet" href="css/style.css">
+<script src="js/slide.js"></script>
   
 </head>
 
@@ -22,26 +23,26 @@
 </div>
 <div class="container">
   <div class="nav">
-    <a href="#">Tickets</a>
-    <a href="#">Lineup</a>
+    <a href="#tickets" class="click-tickets">Tickets</a>
+    <a href="#lineup" class="click-lineup">Lineup</a>
     <a href="#">Info</a>
-    <a href="#">Gallery</a>
+    <a href="#gallery" class="click-gallery">Gallery</a>
     <a href="#">News</a>
-    <a href="#">Contact</a>
+    <a href="#about" class="click-contact">Contact</a>
   </div>
   <div class="clearfix"></div>
 </div>
 <div class="container2">
     <div class="content">
-    <div>March 24-27,2018 New York</div>
+    <div id="tickets" >March 24-27,2018 New York</div>
     <h1 class="h1-animation">Best Music Festival</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ab quidem ipsum molestias cupiditate possimus omnis!</p>
-  <a href="#">Buy Tickets</a>
+  <a href="#" id="lineup">Buy Tickets</a>
  </div>     
  </div>
  <div class="photo-event">
       <div class="cont">
-       <p>LINEUP #</p>
+       <p >LINEUP #</p>
       <h2>Who Will Play</h2>
       <hr></div>
  </div>
@@ -80,7 +81,7 @@
   </div>
 <section>
   <div class="cont">
-      <p>GALLERY #1</p>
+  <p id="gallery">GALLERY #1</p>
  <h2>SOME PHOTOS</h2>
   <hr>
     <div class="pic">
@@ -123,7 +124,7 @@
   </section>
   <div class="container5">
     <div class="cont">
-    <p>ABOUT</p>
+    <p id="about">ABOUT</p>
     <h2>General Info</h2>
     <hr></div>
     <div class="infos">
@@ -172,8 +173,6 @@
   </div>
  </div>
   
-  
-
 </body>
 
 </html>
